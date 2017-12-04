@@ -211,7 +211,7 @@ var theme = function () {
         },
         // CountDown
         initCountDown: function () {
-            var austDay = new Date(2017,9,7);
+            var austDay = new Date(2018,2,24);
             $('#defaultCountdown').countdown({until: austDay});
             $('#year').text(austDay.getFullYear());
         },
@@ -305,7 +305,7 @@ var theme = function () {
             var marker;
             var image = 'assets/img/icon-google-map.png'; // marker icon
             function initialize() {
-                
+
             }
         }
 
